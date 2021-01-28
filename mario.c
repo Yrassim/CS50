@@ -23,6 +23,14 @@ int main(void)
             printf("#");
         }
 
+        printf("  ");  // print space between the 2 triangles
+
+        // draw the line for the second shape
+        for (int z = 0; z < i + 1; z++)
+        {
+            printf("#");
+        }
+
         printf("\n");  // to go to the next line
     }
 }
