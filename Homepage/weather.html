@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+
+      rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+  </head>
+
+  <body id="im_background" style="margin-left:40%;">
+
+    <div class="flex-parent">
+      <a href="index.html"><button type="button" class="btn btn-success margin-right">Home Page</button></a>
+      <a href="contact.html"><button type="button" class="btn btn-success margin-right">Contact</button></a>
+    </div>
+    <a href="signin.html"><button type="button" class="btn btn-success" style="float:right">Sign in</button></a>
+
+    <form action="https://www.google.com/search?q=weather&" method="get">
+
+      <label for="inputCountry">Country</label>
+      <input id="inputCountry" class="form-control" placeholder="Country" required="" style="width: 300px;" name = "q" type="text">
+      <label for="inputState">State</label>
+      <input id="inputState" class="form-control" placeholder="State" required="" style="width: 300px;" name = "q" type="text">
+      <label for="inputCity">City</label>
+      <input id="inputCity" class="form-control" placeholder="City" required="" style="width: 300px;" name = "q" type="text">
+
+
+
+      <button class="btn btn-success" type="submit" style="margin-left: 225px;">Search</button>
+
+    </form>
+
+  </body>
+</html>
